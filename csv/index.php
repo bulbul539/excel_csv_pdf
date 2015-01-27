@@ -1,6 +1,7 @@
 <?php
 if(isset($_POST['submit']))
 {
+echo 'bulbul sarkar';
 	$connect=mysql_connect("localhost","root","") or die(mysql_error());
 	mysql_select_db("ecom2",$connect) or die(mysql_error());
 	
